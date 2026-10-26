@@ -1,0 +1,19 @@
+.legend-elevation,.legend-slope{display:inline-block;width:13px;height:13px;flex:none;border:1px solid #a2b69b;border-radius:3px;background:linear-gradient(135deg,#287f83,#c9cb88,#79513f)}
+.legend-slope{border-color:#d1a079;background:linear-gradient(135deg,#fcf0c5,#e99143,#56365d)}
+.toggle.elevation-toggle.on{background:#398982}
+.toggle.slope-toggle.on{background:#b46c48}
+.terrain-map-legend.is-elevation .thematic-map-legend-icon{background:#e2eeE6;color:#398982}
+.terrain-map-legend.is-slope .thematic-map-legend-icon{background:#f5e6d6;color:#b46c48}
+.terrain-map-unit{font-size:10px;font-weight:500;color:#829078;margin-left:3px}
+.terrain-map-scale{margin:0;padding:0 12px 10px}
+.terrain-map-colorbar{height:11px;border-radius:3px;box-shadow:inset 0 0 0 1px #34442a12}
+.terrain-map-ticks{display:flex;justify-content:space-between;gap:5px;padding-top:5px;font-size:10px;font-weight:650;color:#57644e;font-variant-numeric:tabular-nums;line-height:1.4}
+.terrain-map-ticks>span{flex:1;text-align:center}
+.terrain-map-ticks>span:first-child{text-align:left}
+.terrain-map-ticks>span:last-child{text-align:right}
+.terrain-map-ticks.is-constant>span{text-align:center}
+.terrain-map-scale figcaption{font-size:9px;color:#7a856f;margin-top:6px;line-height:1.4}
+.terrain-map-legend>.terrain-map-details{max-height:min(170px,max(95px,calc(100dvh - 610px)))}
+.terrain-map-details .thematic-map-legend-note{border-top:0}
+.terrain-map-details .thematic-map-legend-note+.thematic-map-legend-note{border-top:1px solid #e8e9df}
+@media(max-width:680px){.terrain-map-scale{padding:0 10px 9px}}

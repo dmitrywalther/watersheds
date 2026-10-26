@@ -1,0 +1,89 @@
+# Local raster datasets, sidecars, preparation manifests and generated coverage.
+# Only the two class dictionaries are source code needed by the application.
+/data/*
+!/data/landcover/
+!/data/soil/
+/data/landcover/*
+!/data/landcover/landcover_categories.py
+/data/soil/*
+!/data/soil/soil_categories.py
+
+# Local migration reports, baselines, screenshots and machine-specific paths.
+# Curated public documentation images belong in docs/images/ instead.
+/artifacts/
+
+# Python environments, bytecode, caches and packaging output.
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# JavaScript dependencies, generated bundles and tool caches.
+node_modules/
+dist-ssr/
+.vite/
+coverage/
+
+# Temporary calculation/test output and native build products.
+/tests/tmp*/
+/tmp/
+/.tmp/
+*.tmp
+*.temp
+*.exe
+*.dll
+*.pdb
+*.log
+logs/
+
+# Raster data must not enter Git even if copied outside data/ by mistake.
+*.tif
+*.tiff
+*.ovr
+*.msk
+*.tfw
+*.aux.xml
+*.vat.dbf
+*.vat.cpg
+*.cog.json
+*.preparation.json
+
+# Credentials and local configuration. Sanitized examples may be committed.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.codex/
+.agents/
+credentials.json
+credentials.*.json
+service-account*.json
+
+# OS/editor files.
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

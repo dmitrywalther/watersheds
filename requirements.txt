@@ -1,0 +1,9 @@
+flask
+flask-cors
+geopandas
+shapely
+rasterio
+whitebox
+rasterstats
+pandas
+requests
